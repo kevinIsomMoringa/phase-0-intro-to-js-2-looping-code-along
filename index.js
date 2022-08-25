@@ -13,5 +13,14 @@ const writeCards = (nameArray, eventName) => {
     return newArray;
 }
 
+function countDown(limit) {
+    let countDown = 0;
+    while (countDown <= limit) {
+    console.log(limit--);
+    }
+}
+
+
 
 console.log(writeCards(name,event))
+countDown(10)
